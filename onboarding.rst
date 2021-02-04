@@ -28,7 +28,7 @@ Il processo di onboarding puó essere suddiviso in quattro sottofasi distinte:
 
 4. Federazione.
 
-.. figure:: ../../media/schema_onboarding.png
+.. figure:: ./media/schema_onboarding.png
    :alt: Processo di onboarding
    :name: processo-onboarding
    :width: 15cm
@@ -65,7 +65,7 @@ Registrazione al portale e richiesta formale di adesione
 
 Il processo di onboarding viene avviato tramite la procedura di registrazione al portale che **deve** essere effettuata da un referente amministrativo del Service Provider. 
 
-.. figure:: ../../media/onboardingBPM-Registrazione_SP_amministrativo.png
+.. figure:: ./media/onboardingBPM-Registrazione_SP_amministrativo.png
    :alt: Registrazione al portale
    :name: registrazione-portale
    :width: 12cm
@@ -92,7 +92,7 @@ Ricevute le credenziali di accesso, il referente amministrativo può quindi acce
 
 Al termine dell'inserimento dei suddetti dati, questi ultimi vengono presentati al referente amministrativo in un modulo riepilogativo disponibile per il download. Il modulo in formato *pdf*, opportunamente compilato e sottoscritto dal legale rappresentante del Service Provider, deve essere caricato nel portale per consentire all'IdP di effettuare le opportune verifiche volte all'autorizzazione formale alla federazione. Concluso con successo l'iter autorizzativo, vengono inviate le credenziali di accesso al portale direttamente al referente tecnico indicato in fase di richiesta di adesione.
 
-.. figure:: ../../media/onboardingBPM-Richiesta_di_adesione.png
+.. figure:: ./media/onboardingBPM-Richiesta_di_adesione.png
    :alt: Richiesta di adesione
    :name: richiesta-adesione
    :width: 12cm
@@ -116,7 +116,7 @@ Ricevute le credenziali di accesso, il referente tecnico, accedendo direttamente
 
 
 
-.. figure:: ../../media/onboardingBPM-Federazione.png
+.. figure:: ./media/onboardingBPM-Federazione.png
    :alt: federazione
    :name: richiesta-federazione
    :width: 12cm

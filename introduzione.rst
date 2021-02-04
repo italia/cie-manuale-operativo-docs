@@ -11,7 +11,7 @@ Con la CNS, infatti, l'utente utilizza la carta come contenitore della coppia di
 
 Lo schema di autenticazione “Entra con CIE” è, invece, basato su un sistema di *Single Sign-On* (SSO) che consente a chi rilascia l'identitá digitale (Identity provider) di inviare le credenziali di autorizzazione dell'utilizzatore finale al fornitore di servizi (Service Provider), sollevando quest'ultimo dall'onere di gestione delle identità digitali. Il vantaggio da parte dell'utilizzatore che fa richiesta di autenticazione è altrettanto tangibile, in quanto tale schema di identificazione consente di avere un'unica chiave di accesso superando, in questo modo, il modello tradizionale di autenticazione basato su password specifiche per ogni servizio. Di seguito viene riportato il tipico flusso di funzionamento.
 
-.. figure:: ../../media/schema_autenticazione.png
+.. figure:: ./media/schema_autenticazione.png
    :alt: Schema di autenticazione Entra con CIE.
    :width: 15cm
    :name: schema-autenticazione
