@@ -1,7 +1,12 @@
 --- 
 document: 
-  name: "Template di conversione di Docs Italia"
-  description: "Modello ottenuto dalla conversione di un documento con il convertitore web di Docs Italia"
+  name: "Manuale Operativo per gli erogatori di servizi pubblici e privati"
+  short_name: cie-manuale-operativo
+  description: "Documento che descrive il processo di onboarding finalizzato all'integrazione dello schema di identificazione Entra con CIE per l'accesso ai servizi in rete di PP.AA e Privati."
   tags: 
+    - Manuale operativo
+    - Onboarding
+    - Entra con CIE
+    - CIE
+    - Carta di Identità Elettronica
     - Docs Italia
-    - template
