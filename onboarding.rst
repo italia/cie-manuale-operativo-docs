@@ -8,14 +8,14 @@ La fase di onboarding costituisce il prerequisito fondamentale per il processo d
 In particolare il `portale di federazione erogatori di sevizi <https://www.federazione.servizicie.interno.gov.it>`__ consente al Service Provider di:
 
    - registrarsi ed effettuare facilmente la richiesta di adesione 
-   - federare i metadata e ricevere immediatamente l’esito della federazione
+   - federare i metadata e ricevere l’esito della federazione
    - verificare in ogni istante lo stato delle attività
 
 I principali vantaggi che derivano dall'utilizzo del portale di federazione sono: 
 
    - gestione e controllo dell’intero ciclo di vita: federazione, sviluppo, test, produzione, esercizio e conduzione operativa;
    - snellimento delle procedure amministrative e tecniche di onboarding;
-   - processo di federazione e configurazione automatizzato e più efficiente. 
+   - processo di federazione e configurazione più efficiente. 
 
 
 Il processo di onboarding puó essere suddiviso in quattro sottofasi distinte:
@@ -41,15 +41,15 @@ Il processo di onboarding puó essere suddiviso in quattro sottofasi distinte:
 
 Il Service Provider, nella figura di un referente amministrativo designato a svolgere tale attività, effettua la registrazione al portale, compila i principali dati amministrativi relativi al soggetto (pubblico o privato) che richiede l'adesione allo schema "Entra con CIE" e identifica un referente tecnico che può essere interno al Service Provider o esterno (partner tecnilogico). Il referente tecnico ha in carico le attività tecniche di federazione, intergrazione dello schema all'interno dei servizi online del Service Provider e messa in esercizio finale. Rappresenta, inoltre, l'unica interfaccia tecnica con l'Identity Provider per eventuali comunicazioni di natura tecnica e/o attività di supporto per la risoluzioni di eventuali problemi in fase di integrazione. Il flusso di onboarding prevede, nello specifico, i seguenti passi operativi:
 
-   1. Il referente amministrativo, conclusa con successo la fase di registrazione al portale, riceve le credenziali per l'accesso al portale
+   1. Il referente amministrativo, conclusa con successo la fase di registrazione al portale, riceve le credenziali per l'accesso al portale;
    2. Il referente amministrativo accede al portale e inserisce i dati amministrativi e relativi al referente tecnico designato;
-   3. L'IdP, raccolte tutte le evidenze e, effettuate le virifiche previste dal processo di onboarding, fornisce l'autorizzazione formale a procedere con la federazione e invia al referente tecnico individuato dal SP le credenziali di accesso al portale
-   4. Il referente tecnico accede al portale e compila i dati tecnici necessari per la federazione (ad es. carica i metadata di pre-produzione)
-   5. Il Poligrafico, nel ruolo di partner tecnologico del Ministero dell'Interno, effettua la federazione nell'ambiente di pre-produzione dell'IdP 
-   6. Il SP o eventualmente il partner tecnologico effettua le attività di sviluppo e test per consentire l'integrazione dello schema "Entra con CIE" per l'accesso ai servizi online del SP;
-   7. Concluse le attività di integrazione, il referente tecnico raccoglie le evidenze di corretta implementazione in formato immagine (screenshot) e li carica all'interno del portale di federazione per consentire le opportune verifiche da parte dell'IdP;
-   8. Conlcuse le verifiche applicative, il referente tecnico inserisce nel portale i metadata di produzione.
-   9. Effettuati gli ultimi test in ambiente di produzione, il referente tecnico comunica, tramite apposita funzionalità esposta dal portale di federazione, la pubblicazione e la messa in esercizio finale del servizio.
+   3. Il referente amministrativo, scarica il modulo riepilogativo con i dati precedentemente inseriti e, una volta verificato il contenuto e sottoscritto tramite firma digitale dal legale rappresentante del Service Provider, lo carica sul portale;
+   4. L'IdP, raccolte tutte le evidenze e, effettuate le verifiche previste dal processo di onboarding, fornisce l'autorizzazione formale a procedere con la federazione e invia al referente tecnico individuato dal SP le credenziali di accesso al portale;
+   5. Il referente tecnico accede al portale e compila i dati tecnici necessari per la federazione (ad es. carica i metadata);
+   6. Il Poligrafico, nel ruolo di partner tecnologico del Ministero dell'Interno, effettua la federazione nell'ambiente di pre-produzione dell'IdP;
+   7. Il Service Provider o eventualmente il partner tecnologico effettua le attività di sviluppo e test per consentire l'integrazione dello schema "Entra con CIE" per l'accesso ai servizi online del Service Provider;
+   8. Concluse le attività di integrazione, il referente tecnico raccoglie le evidenze di corretta implementazione in formato immagine (screenshot) e li carica all'interno del portale di federazione per consentire le opportune verifiche da parte dell'IdP;
+   9. Effettuati gli ultimi test in ambiente di produzione, il referente tecnico comunica, tramite apposita funzionalità esposta dal portale di federazione, la pubblicazione e la messa in esercizio finale del servizio;
    10. L'IdP, avvalendosi del Poligrafico, effettua le verifiche applicative di corretto funzionamento dello schema di identificazione e provvede ad aggiornare l'elenco degli erogatori di servizi abilitati che hanno concluso con successo l'iter di accreditamento allo schema "Entra con CIE".
 
 Nei successivi paragrafi vengono descritti i principali processi di business previsti per completare l'onboarding allo schema "Entra con CIE".
@@ -90,7 +90,7 @@ Ricevute le credenziali di accesso, il referente amministrativo può quindi acce
       - al Service Provider (eventualmente può essere indicato lo stesso referente amministrativo);
       - al partner tecnologico (in presenza di più partner tecnologico per uno stesso Service Provider è obbligatorio indicarne uno solo fra essi che svolgerà il ruolo di interfaccia tecnica con l'IdP)
 
-Al termine dell'inserimento dei suddetti dati, questi ultimi vengono presentati al referente amministrativo in un modulo riepilogativo disponibile per il download. Il modulo in formato *pdf*, opportunamente compilato e sottoscritto dal legale rappresentante del Service Provider, deve essere caricato nel portale per consentire all'IdP di effettuare le opportune verifiche volte all'autorizzazione formale alla federazione. Concluso con successo l'iter autorizzativo, vengono inviate le credenziali di accesso al portale direttamente al referente tecnico indicato in fase di richiesta di adesione.
+Al termine dell'inserimento dei suddetti dati, questi ultimi vengono presentati al referente amministrativo in un modulo riepilogativo disponibile per il download. Il modulo in formato *pdf*, opportunamente verificato e sottoscritto dal legale rappresentante del Service Provider, deve essere caricato nel portale per consentire all'IdP di effettuare le opportune verifiche volte all'autorizzazione formale alla federazione. Concluso con successo l'iter autorizzativo, vengono inviate le credenziali di accesso al portale direttamente al referente tecnico indicato in fase di richiesta di adesione.
 
 .. figure:: ./media/onboardingBPM-Richiesta_di_adesione.png
    :alt: Richiesta di adesione
@@ -123,6 +123,6 @@ Ricevute le credenziali di accesso, il referente tecnico, accedendo direttamente
 
    Processo di richiesta di federazione.
 
-Il referente tecnico, in fase di richiesta di federazione deve inserire i dati tecnici relativi alla federazione in ambiente di pre-produzione e produzione. In particolare, oltre alle URI dei servizi online per i quali si richiede l'utilizzo dello schema "Entra con CIE", il referente tecnico deve effettuare l'upload del file dei metadata di pre-produzione al termine del quale, viene effettuata una verifica formale sulla correttezza dello stesso. Ad esito positivo, viene inviata relativa comunicazione al referente tecnico, il quale può, dunque, procedere con la fase di sviluppo, integrazione e test. Al termine di tale fase, il referente tecnico deve caricare sul portale le evidenze di corretta implementazione al fine di consentire all'IdP di effettuare le opportune verifiche propedeutiche alla federazione in produzione (per i dettagli tecnici cfr. il `Manuale tecnico per i fornitori di servizi pubblici e privati <https://docs.italia.it/italia/cie/cie-manuale-tecnico-docs>`__). A fronte di un esito positivo delle suddette verifiche, il refente tecnico può effettuare l'upload del file di metadata di produzione per le verifiche formali di federazione. Infine, ultimati i test in ambiente di produzione, il refente tecnico, tramite il portale, comunica all'IdP la pubblicazione dei servizi online che consentono l'accesso tramite lo schema "Entra con CIE". 
+Il referente tecnico, in fase di richiesta di federazione deve inserire i dati tecnici relativi alla federazione in ambiente di pre-produzione e produzione. In particolare, oltre alle URI dei servizi online per i quali si richiede l'utilizzo dello schema "Entra con CIE", il referente tecnico deve effettuare l'upload dei file dei metadata al termine del quale, viene effettuata una verifica formale sulla correttezza degli stessi. Ad esito positivo, l'IdP effettua la federazione in ambiente di pre-produzione e viene inviata relativa comunicazione al referente tecnico, il quale può, dunque, procedere con la fase di sviluppo, integrazione e test. Al termine di tale fase, il referente tecnico deve caricare sul portale le evidenze di corretta implementazione al fine di consentire all'IdP di effettuare le opportune verifiche propedeutiche alla federazione in produzione (per i dettagli tecnici cfr. il `Manuale tecnico per i fornitori di servizi pubblici e privati <https://docs.italia.it/italia/cie/cie-manuale-tecnico-docs>`__). A fronte di un esito positivo delle suddette verifiche, il refente tecnico può effettuare i test conclusivi in ambiente di produzione, e, tramite il portale, comunica all'IdP la pubblicazione dei servizi online che consentono l'accesso tramite lo schema "Entra con CIE". 
 
 
