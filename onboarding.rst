@@ -4,8 +4,8 @@
 Il processo di onboarding
 =========================
 
-La fase di onboarding costituisce il prerequisito fondamentale per il processo di integrazione dello schema di autenticazione "Entra con CIE". Tale fase è eseguita mediante il `portale di federazione erogatori di sevizi <https://www.federazione.servizicie.interno.gov.it>`__, messo a disposizione dall'Identity Provider e gestito e sviluppato dal Poligrafico che, in qualità di partner tecnologico del Ministero dell'Interno, ne cura tutti gli aspetti tecnici. 
-In particolare il `portale di federazione erogatori di sevizi <https://www.federazione.servizicie.interno.gov.it>`__ consente al Service Provider di:
+La fase di onboarding costituisce il prerequisito fondamentale per il processo di integrazione dello schema di autenticazione "Entra con CIE". Tale fase è eseguita mediante il `portale di federazione erogatori di sevizi <https://federazione.servizicie.interno.gov.it/>`__, messo a disposizione dall'Identity Provider e gestito e sviluppato dal Poligrafico che, in qualità di partner tecnologico del Ministero dell'Interno, ne cura tutti gli aspetti tecnici. 
+In particolare il `portale di federazione erogatori di sevizi <https://federazione.servizicie.interno.gov.it/>`__ consente al Service Provider di:
 
    - registrarsi ed effettuare facilmente la richiesta di adesione 
    - federare i metadata e ricevere l’esito della federazione
