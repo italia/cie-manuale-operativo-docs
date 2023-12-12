@@ -1,23 +1,33 @@
-===============================================================
-Manuale operativo per i fornitori di Servizi Pubblici e Privati
-===============================================================
+.. figure:: media/image1.png
+    :alt: logo entra con cie
+    :width: 4 cm
+    :name: logo cie
+    :align: left
+
+=================================================================
+Manuale Operativo per gli erogatori di servizi pubblici e privati
+=================================================================
 
 .. raw:: latex 
 
    \makeatletter\@openrightfalse
 	\chapter{Introduzione}
 
-Scopo del presente documento è descrivere le modalità operative per l'adozione della Carta di Identità Elettronica (CIE) come strumento di accesso ai servizi erogati in rete dalle Pubbliche Amministrazioni e dalle organizzazioni private come previsto dall'`art. 64 del CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/stabile/_rst/capo5_sezione3_art64.html>`__), così come modificato dall' art. 24, comma 1 – lett. e) nn. 3) e 6) - del `Decreto Legge 16 luglio 2020, n. 76 recante “Misure urgenti per la semplificazione e l'innovazione digitale” (“Decreto Semplificazioni”) <https://www.gazzettaufficiale.it/eli/id/2020/09/14/20A04921/sg>`__, convertito, con modificazioni, dalla `L. 11 settembre 2020, n.120 <https://www.gazzettaufficiale.it/eli/id/2020/09/14/20G00139/sg>`__.
-Lo schema di identificazione basato sulla CIE, dettagliato nel presente documento, è compatibile con il Level of Assurance 4 (HIGH) del `regolamento UE 910/2014 <https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32014R0910&from=EN>`__ eIDAS (`GUUE C309 del 13 settembre 2019 <https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=OJ:C:2019:309:FULL&from=EN>`__) e consente ai cittadini di fruire dei servizi offerti online dalle Pubbliche Amministrazioni e dei soggetti privati utilizzando gli elementi di sicurezza presenti sulla propria CIE (chiavi crittografiche protette da PIN e Certificati) come credenziali per la propria identificazione.
-
+Scopo del presente documento è descrivere le condizioni e le modalità
+operative del processo di federazione per l’adozione dell’identità
+digitale CIEId come strumento di accesso ai servizi erogati in rete
+dalle Pubbliche Amministrazioni e dalle organizzazioni private come
+previsto dall’\ `art. 64 del
+CAD <https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-05-16&atto.codiceRedazionale=005G0104&atto.articolo.numero=0&atto.articolo.sottoArticolo=1&atto.articolo.sottoArticolo1=10&qId=d0f1ee56-f65c-44c5-9d7a-11571a32d5f8&tabID=0.04634330795238184&title=lbl.dettaglioAtto>`__.
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Indice dei contenuti
-   :numbered:
+  :maxdepth: 3
+  :caption: Indice dei contenuti
+  :numbered:
 
-   introduzione.rst
-   onboarding.rst
-   supporto.rst
-  
-   
+  glossario.rst
+  premesse-e-soggetti-della-federazione.rst
+  condizioni.rst
+  modalita-il-processo-di-onboarding.rst
+  assistenza-tecnica.rst
+
